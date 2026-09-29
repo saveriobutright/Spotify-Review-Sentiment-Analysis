@@ -1,4 +1,7 @@
 # Spotify Review Sentiment Analysis
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 An end-to-end data engineering pipeline and interactive NLP web dashboard for scraping, normalizing, and classifying Spotify customer feedback from Trustpilot.
 
 Spotify Review Sentiment Analysis processes raw, multi-page customer feedback from Trustpilot into cleaned tabular datasets, evaluates class-imbalanced ML classifiers, and exposes live inference alongside interactive visual analytics.
