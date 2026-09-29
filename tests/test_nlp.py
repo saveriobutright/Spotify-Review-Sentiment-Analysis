@@ -1,7 +1,6 @@
 import pytest
 from src.nlp_processor import clean_text, rating_to_label
 
-# Test sulla funzione di pulizia del testo
 def test_clean_text_lowercasing():
     assert clean_text("EXCELLENT APP") == "excellent app"
 
@@ -11,7 +10,6 @@ def test_clean_text_punctuation_removal():
 def test_clean_text_whitespace():
     assert clean_text("  too   many    spaces  ") == "too many spaces"
 
-# Test sulla mappatura dei Rating
 def test_rating_to_label_negative():
     assert rating_to_label(1) == "Negative"
     assert rating_to_label(2) == "Negative"
