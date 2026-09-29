@@ -1,9 +1,8 @@
-requests
+pytest
 beautifulsoup4
 pandas
-numpy
+playwright
 nltk
-textblob
 scikit-learn
 streamlit
 plotly
