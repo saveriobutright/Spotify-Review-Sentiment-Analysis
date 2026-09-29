@@ -31,7 +31,7 @@ vectorizer = TfidfVectorizer()
 
 X = vectorizer.fit_transform(file["Cleaned_Review"])
 
-model = LogisticRegression()
+model = LogisticRegression(class_weight="balanced")
 model.fit(X, file["True_Label"])    
 
 file["ML_Predicted_Label"] = model.predict(X)
